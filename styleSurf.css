@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  background-color: #2F4550;
+}
+
+.headLeft {
+  display: inline-block;
+}
+
+.headRight {
+  display: inline-block;
+}
