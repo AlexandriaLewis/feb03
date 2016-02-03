@@ -1,12 +1,323 @@
+/* headright needs to be a list*/
+
+
+* {
+/*  background-color: #586F7C; */
+  margin: 0;
+  padding: 0;
+}
+
 header {
   width: 100%;
+  height: 56px;
+  margin: 0;
+  padding: 0;
   background-color: #2F4550;
-}
-
-.headLeft {
   display: inline-block;
 }
 
-.headRight {
+.headcontent {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 13px;
+}
+
+p.herocontent {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  left: 40.5%;
+}
+
+.headleft {
   display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  top: 32%;
+  left: -2%;
+}
+
+.headleft img {
+  display: inline-block;
+}
+
+.headleft p {
+  display: inline-block;
+  position: relative;
+  left: 9px;
+}
+
+.headright {
+    width: 36%;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    top: 32%;
+    left: 71%;
+}
+
+.headright li {
+  display: inline-block;
+  padding-left: 6%;
+}
+
+.herospace {
+  height: 500px;
+  width: 100%
+}
+
+/*.overlay {
+  background-color: #B8DBD9;
+  height: 300px;
+  opacity: .2;
+}*/
+
+.heroimg {
+  background-image: url(surfPhotos/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position-y: 27%;
+}
+
+.herocontent h2 {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  left: 40%;
+}
+
+.sitebody {
+  width: 80%;
+  margin: 0 auto;
+  /*height: 700px;*/
+  border-bottom: 1px solid gray;
+}
+
+.sitecontent {
+  display: inline-block;
+  width: 50%;
+  /*height: 700px;*/
+  margin-top: 5%;
+  margin-right: 10%;
+  vertical-align: top;
+}
+
+.contentincontent {
+  margin-top: 5%;
+}
+
+.sitecontent h1 {
+  font-size: 40px;
+}
+
+.sitecontent p {
+  margin: 3%;
+}
+
+.titlefooter p{
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.userphoto {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  background-image: url(surfPhotos/usericon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%
+}
+
+.blockquote {
+  padding-left: 22%;
+}
+
+blockquote {
+  /*background: #f9f9f9;*/
+  border-left: 2px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+/*blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+blockquote p {
+  display: inline;
+}
+
+.contentfooter {
+  width: 100%;
+  margin: 4%;
+}
+
+.button {
+  position: relative;
+  padding-top: 3%;
+  left: 10%;
+  display: inline-block;
+  width: 27%;
+  background-color: #2F4550;
+  color: #FFF;
+  font-size: .8rem;
+}
+
+.button:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  width: 3%;
+  margin: 0;
+  padding-top: 3px;
+  border-top: 27px solid transparent;
+  border-left: 26px solid transparent;
+  background-color: gray;
+}
+
+.button p {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -8px;
+  left: 40px;
+}
+
+.siteaside {
+  display: inline-block;
+  width: 37%;
+  margin-top: 5%;
+  /*height: 700px;*/
+}
+
+.asideuserphoto {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-image: url(surfPhotos/usericon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.asidefooter {
+
+}
+
+.asidefooter h3 {
+  position: relative;
+  center: both;
+  margin: 0 auto;
+}
+
+/*.asidefooter p {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}*/
+
+.asidefooter li {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.adphoto {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-image: url(surfPhotos/asidead.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 51%;
+  background-position-y: 20%;
+}
+
+.postrow {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.postrow h1 {
+  position: relative;
+  left: 26%;
+  font-size: 71px;
+}
+
+.navblocks {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.blockrow {
+  display: inline-block;
+  width: 24.9%;
+  height: 300px;
+  margin: -3px;
+  padding: 0px;
+  /*border: 2px solid;*/
+}
+
+.block1 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+  padding: 0;
+  background-image: url(surfPhotos/block1.jpg);
+  background-repeat: no-repeat;
+  background-size: 167%;
+  background-position-y: -34px;
+  background-position-x: -201px;
+}
+
+.block2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+  padding: 0;
+  background-image: url(surfPhotos/block2.jpg);
+  background-repeat: no-repeat;
+  background-size: 220%;
+  background-position-y: -1px;
+  background-position-x: -351px;
+}
+
+.block3 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+  padding: 0;
+  background-image: url(surfPhotos/block3.jpg);
+  background-repeat: no-repeat;
+  background-size: 148%;
+  background-position-y: -8px;
+  background-position-x: -27px;
+}
+
+.block4 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 0px;
+  padding: 0;
+  background-image: url(surfPhotos/block4.jpg);
+  background-repeat: no-repeat;
+  background-size: 173%;
+  background-position-y: -17px;
+  background-position-x: -18px;
 }
