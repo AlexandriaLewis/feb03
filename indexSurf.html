@@ -5,31 +5,33 @@
     <title>Sample Site</title>
     <link rel="stylesheet" href="styleSurf.css">
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-      <header><!--fixed, img, text, text, text-->
-          <div class="headcontent">
-            <div class="headleft">
-                <img src="" alt="logo" />
-                <p>insert website name</p>
-            </div>
-            <div class="headright">
-                <ul>
-                  <li>About</li>
-                  <li>Search</li>
-                </ul>
-            </div>
-          </div>
-      </header>
-      <section class="herospace"> <!-- photo 100%, overlay -->
-          <!--<div class="overlay">-->
-              <div class="heroimg">
+      <section class="herospace">
+        <div class="heroimg">
+              <header>
+                <div class="headerbackground"></div>
+                  <div class="headcontent">
+                    <div class="headleft">
+                        <img src="" alt="logo" />
+                        <a href="#" class="navlink"><p>WEBSITE NAME</p></a>
+                    </div>
+                    <div class="headright">
+                        <ul>
+                          <li><a href="#" class="navlink">About</a></li>
+                          <li><a href="#" class="navlink">Search</a></li>
+                        </ul>
+                    </div>
+                  </div>
+
+              </header>
                   <div class="herocontent">
                       <h2>Sample Site Title</h2>
                       <p class="herocontent">Insert further information</p>
                   </div>
-              </div>
-          <!--</div>-->
+        </div>
       </section>
       <section class="sitebody">
           <section class="sitecontent">
@@ -37,8 +39,7 @@
             <div class="titlefooter">
                   <!--<img src="surfPhotos/usericon.png" alt="user" />-->
                   <div class="userphoto"></div>
-                  <p>Jane Doe</p>
-                  <p>on <span>Weekday, Month Day Time</span></p>
+                  <p>on Weekday, Month Day Time</p>
             </div>
             <div class="contentincontent">
               <p>
@@ -46,6 +47,9 @@
               </p>
               <p>
               text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+              </p>
+              <p>
+              text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
               </p>
                 <div class="blockquote">
                   <blockquote cite="http://">
@@ -58,45 +62,38 @@
               <p>
               text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
               </p>
+              <p>
+              text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
+              </p>
             </div>
             <div class="contentfooter">
-                <div class="button">
+                <a href="#"><div class="button">
                     <p>Read Comments</p>
-                </div>
-                <div class="button">
+                </div></a>
+                <a href="#"><div class="button">
                     <p>Read Later</p>
-                </div>
-                <div class="button">
+                </div></a>
+                <a href="#"><div class="button">
                     <p>Share This Post</p>
-                </div>
+                </div></a>
             </div>
           </section>
           <aside class="siteaside">
               <!--<img src="surfPhotos/usericon.png" alt="user" />-->
               <div class="asideuserphoto"></div>
               <div class="asidefooter">
-                <h3>Jane Doe</h5>
+                <h3>JANE DOE</h5>
                   <ul>
-                    <li>Twitter</li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
+                    <li><a href="#" class="asidelink">Twitter</a></li>
+                    <li><a href="#" class="asidelink">Facebook</a></li>
+                    <li><a href="#" class="asidelink">Instagram</a></li>
                   </ul>
-                  <!--<p>
-                    Twitter
-                  </p>
-                  <p>
-                    Facebook
-                  </p>
-                  <p>
-                    Instagram
-                  </p>-->
               </div>
-              <!--<img src="surfPhotos/asidead.jpg" alt="advertisment" />-->
               <div class="adphoto"></div>
               <div class="adfooter">
-                <p>About this Ad</p>
+                <p><a href="#" class="asidelink">About this Ad</a></p>
               </div>
-              <div class="asidecontent"></div>
+              <div class="asidecontent">
                 <h2>Sidebar Content Title</h2>
                 <p>
                   text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text
@@ -109,18 +106,59 @@
       </section>
       <nav class="navblocks">
           <div class="blockrow">
-              <div class="block1"></div>
+              <a href="#" class="blocklink">
+                  <div class="block1">
+                    <h2>Sample Title</h2>
+                    <div class="blocklink1">
+
+                    </div>
+                  </div>
+              </a>
           </div>
           <div class="blockrow">
-              <div class="block2"></div>
+            <a href="#" class="blocklink">
+              <div class="block2">
+                  <h2>Sample Title</h2>
+                  <div class="blocklink2"></div>
+              </div>
+            </a>
           </div>
           <div class="blockrow">
-              <div class="block3"></div>
+            <a href="#" class="blocklink">
+                <div class="block3">
+                  <h2>A Longer Sample of a Sample Title</h2>
+                  <div class="blocklink3">
+
+                  </div>
+              </div>
+            </a>
           </div>
           <div class="blockrow">
-              <div class="block4"></div>
+            <a href="#" class="blocklink">
+                <div class="block4">
+                  <h2>Sample Title</h2>
+                  <div class="blocklink4">
+
+                  </div>
+              </div>
+            </a>
           </div>
       </nav>
-      <footer></footer>
+      <footer>
+        <div class="footercontent">
+          <div class="footerleft">
+              <img src="" alt="iylogo" />
+              <p>The Iron Yard Copyright 2016, All Rights Reserved</p>
+          </div>
+          <div class="footerright">
+              <ul>
+                <li><a href="#" class="navlink">Nav Item 1</a></li>
+                <li><a href="#" class="navlink">Nav Item 2</a></li>
+                <li><a href="#" class="navlink">Nav Item 3</a></li>
+                <li><a href="#" class="navlink">Nav Item 4</a></li>
+              </ul>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
