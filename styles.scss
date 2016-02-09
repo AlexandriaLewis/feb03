@@ -1,0 +1,32 @@
+@import '_herospace';
+@import '_sitebody';
+@import '_postrow';
+@import 'navblocks';
+@import '_footer';
+
+* {
+/*  background-color: #586F7C; */
+  margin: 0;
+  padding: 0;
+}
+
+a.navlink {
+  text-decoration: none;
+  color: #000;
+}
+
+a.navlink:hover {
+  color: #586f7c;
+}
+
+a.asidelink {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.asidelink:hover {
+  color: #2f4550;
+  text-decoration: underline;
+  font-weight: bolder;
+}

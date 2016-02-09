@@ -1,0 +1,189 @@
+.sitebody {
+  width: 80%;
+  margin: 0 auto;
+  /*height: 700px;*/
+  border-bottom: 1px solid gray;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.sitecontent {
+  display: inline-block;
+  width: 50%;
+  /*height: 700px;*/
+  margin-top: 5%;
+  margin-right: 10%;
+  vertical-align: top;
+  color: #2f4550;
+}
+
+.contentincontent {
+  margin-top: 5%;
+}
+
+.sitecontent h1 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sitecontent p {
+  margin: 3%;
+}
+
+.titlefooter p {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.titlefooter p::before {
+  content: "Jane Doe ";
+  color: #586f7c;
+}
+
+.userphoto {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  background-image: url(surfPhotos/usericon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%
+}
+
+.blockquote {
+  padding-left: 22%;
+}
+
+blockquote {
+  /*background: #f9f9f9;*/
+  border-left: 2px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+/*blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+blockquote p {
+  display: inline;
+}
+
+.contentfooter {
+  width: 100%;
+  margin: 4%;
+}
+
+.button {
+  position: relative;
+  padding-top: 3%;
+  left: 10%;
+  display: inline-block;
+  width: 27%;
+  background-color: #2F4550;
+  color: #FFF;
+  font-size: .8rem;
+}
+
+.button:hover {
+  color: #b8dbd9;
+}
+
+.button:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  width: 3%;
+  margin: 0;
+  padding-top: 6px;
+  border-top: 27px solid transparent;
+  border-left: 26px solid transparent;
+  background-color: gray;
+}
+
+.button p {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -8px;
+  left: 40px;
+}
+
+.siteaside {
+  display: inline-block;
+  width: 37%;
+  margin-top: 5%;
+  /*height: 700px;*/
+}
+
+.asideuserphoto {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 40%;
+  background-image: url(surfPhotos/usericon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.asidefooter {
+  position: relative;
+  left: 21%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.asidefooter h3 {
+  position: relative;
+  margin: 0 auto;
+  left: 28%;
+  padding-bottom: 7%;
+  padding-top: 7%;
+  color: #586f7c;
+}
+
+.asidefooter li {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding-right: 14px;
+}
+
+.adphoto {
+  position: relative;
+  left: 10%;
+  margin-top: 13%;
+  width: 300px;
+  height: 300px;
+  background-image: url(surfPhotos/asidead.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 51%;
+  background-position-y: 20%;
+}
+
+.adfooter {
+  position: relative;
+  left: 64%;
+  margin-top: 1%;
+}
+
+.asidecontent {
+  position: relative;
+  left: 2%;
+  margin-top: 13%;
+}
+
+.asidecontent h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.asidecontent p {
+  margin-top: 5%;
+}
